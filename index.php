@@ -1,8 +1,8 @@
 <html>
- <head>
-  <title>PHP Test</title>
- </head>
- <body>
- <?php echo '<p>Hello World</p>'; ?> 
- </body>
-</html>
+  <head>
+    <title>PHP Test</title>
+  </head>
+  <body>
+    <br/> Server IP: <?php echo $_SERVER['SERVER_ADDR']; ?>
+  </body>
+</html> 
